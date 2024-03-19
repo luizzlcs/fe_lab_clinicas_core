@@ -38,6 +38,7 @@ class LabClinicasCoreConfig extends StatelessWidget {
                 didStart!();
               }
               return MaterialApp(
+                debugShowCheckedModeBanner: false,
                 theme: LabClinicasTheme.lightTheme,
                 darkTheme: LabClinicasTheme.darkTheme,
                 navigatorObservers: [
