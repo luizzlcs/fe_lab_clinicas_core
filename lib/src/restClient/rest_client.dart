@@ -12,7 +12,10 @@ final class RestClient extends DioForNative {
           ),
         ) {
     interceptors.addAll([
-      LogInterceptor(requestBody: true, responseBody: true),
+      LogInterceptor(
+        requestBody: true,
+        responseBody: true,
+      ),
       AuthInterceptor(),
     ]);
   }
