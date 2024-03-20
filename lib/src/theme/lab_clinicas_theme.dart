@@ -25,6 +25,7 @@ final class LabClinicasTheme {
       ),
       floatingLabelStyle:
           const TextStyle(color: blueColor, fontWeight: FontWeight.w600),
+      border: _defaultInputBorder,
       enabledBorder: _defaultInputBorder,
       focusedBorder: _defaultInputBorder,
       errorBorder: _defaultInputBorder.copyWith(
@@ -48,21 +49,12 @@ final class LabClinicasTheme {
   );
   static final darkTheme = lightTheme;
 
-  static const titleStyle = TextStyle(
-    color: blueColor,
-    fontSize: 32,
-    fontWeight: FontWeight.w900
-  );
+  static const titleStyle =
+      TextStyle(color: blueColor, fontSize: 32, fontWeight: FontWeight.w900);
 
-  static const titleSmallStyle = TextStyle(
-    color: blueColor,
-    fontSize: 24,
-    fontWeight: FontWeight.w900
-  );
+  static const titleSmallStyle =
+      TextStyle(color: blueColor, fontSize: 24, fontWeight: FontWeight.w900);
 
-  static const subTitleSmallStyle = TextStyle(
-    color: blueColor,
-    fontSize: 18,
-    fontWeight: FontWeight.w500
-  );
+  static const subTitleSmallStyle =
+      TextStyle(color: blueColor, fontSize: 18, fontWeight: FontWeight.w500);
 }
